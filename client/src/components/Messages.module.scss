@@ -1,0 +1,47 @@
+    .Messages {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        gap: 1rem;
+        padding: 1rem;
+
+        .Message {
+            display: flex;
+            flex-direction: column;
+            max-width: 70%;
+            word-wrap: break-word;
+
+            .MessageSender {
+                font-size: 0.7rem;
+                color: #ffffff;
+                margin-bottom: 0.4rem;
+            }
+        }
+
+        .OtherMessage {
+            align-self: flex-start;
+
+            .MessageBody {
+                background: #ffffff;
+                color: #000;
+                border-radius: 12px 12px 12px 0;
+                padding: 10px 14px;
+            }
+
+            .MessageSender {
+                color: #2b2a2a;
+            }
+        }
+
+        .MyMessage {
+            align-self: flex-end;
+            text-align: right;
+
+            .MessageBody {
+                background: #0078ff;
+                color: #fff;
+                border-radius: 12px 12px 0 12px;
+                padding: 10px 14px;
+            }
+        }
+    }

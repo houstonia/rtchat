@@ -1,0 +1,6 @@
+node\_modules/
+dist/
+.env
+.vscode/
+.DS\_Store
+build/
